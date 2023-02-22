@@ -1,27 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Go Green</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" 
-    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <title>Go Green</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light" style="font-family:'Courier New', Courier, monospace; font-size: larger; font-size: larger;" >
+        <a class="navbar-brand" href="plants.html">Interesting Plants</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#InsectNavbarContent" aria-controls="InsectNavbarContent" 
+        aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggle-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="basic.html">Basic</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="advanced.html">Advanced</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <h1>Plants by Surya Mohan Jagani</h1>
     <div class="container">
         <div class="row">
-                <div class="col-sm-2">J</div>
-                <div class="col-sm-2">a</div>
-                <div class="col-sm-2">g</div>
-                <div class="col-sm-2">a</div>
-                <div class="col-sm-2">n</div>
-                <div class="col-sm-2">i</div>
+            <div class="col-sm-2">J</div>
+            <div class="col-sm-2">A</div>
+            <div class="col-sm-2">G</div>
+            <div class="col-sm-2">A</div>
+            <div class="col-sm-2">N</div>
+            <div class="col-sm-2">I</div>
         </div>
         <div class="row">
             <div class="col-md">Jasmine</div>
@@ -33,7 +57,163 @@
         </div>
     </div>
 
-<p>The row with plant names breaks first Divs take more space as they are bigger in size and cannot fit in the screen as the screen is minimized but the smaller divs can fit.</p>
+    <p>The row with plant names breaks first Divs take more space as they are bigger in size and cannot fit in the
+        screen as the screen is minimized but the smaller divs can fit.</p>
+
+    <div class="container">
+        <img class="img-fluid" src="Jasmine.jpg" alt="Jasmine" height="300" width="300">
+        <img class="img-fluid" src="Abelia.jpg" alt="Abelia" height="300" width="300">
+        <img class="img-fluid" src="Garden Phlox.jpg" alt="Garden Phlox" height="300" width="300">
+    </div>
+    <br>
+    <div class="container">
+        <img class="img-thumbnail" src="Aeonium.jpg" alt="Aeonium" height=300 width="300">
+        <img class="img-thumbnail" src="Naked Lady.jpg" alt="Naked Lady" height="300" width="300">
+        <img class="img-thumbnail" src="Iris cristata.jpg" alt="Iris cristata" height="300" width="300">
+    </div>
+    <br>
+    <br>
+      <div class="container">
+          <caption style="color:black">Bootstrap table with headers 'Letter', 'Plant', 'Mountain' and 'Lake'</caption><br>
+          <table class="table table-success table-striped" style="text-align:center;">
+              <thead class="table-success">
+                  <tr style="color:rgb(255, 174, 0)">
+                      <th scope="col">Letter</th>
+                      <th scope="col">Plant</th>
+                      <th scope="col">Mountain</th>
+                      <th scope="col">Lake</th>
+                  </tr>
+              </thead>
+              <tbody class ="table-danger">
+                  <tr class="table-info">
+                      <td>J</td>
+                      <td>Jasmine</td>
+                      <td>Jaya Peak</td>
+                      <td>Jackson lake</td>
+                  </tr>
+                  <tr class="table-warning">
+                      <td>A</td>
+                      <td>Abeila</td>
+                      <td>Anai Peak</td>
+                      <td>Atlin</td>
+                  </tr>
+                  <tr class="table-secondary">
+                      <td>G</td>
+                      <td>Garden Phlox</td>
+                      <td>Grossglockner</td>
+                      <td>Great Bear</td>
+                  </tr>
+                  <tr class="table-primary">
+                      <td>A</td>
+                      <td>Aeonium</td>
+                      <td>Anaimudi</td>
+                      <td>Athabasca</td>
+                  </tr>
+                  <tr class="table-dark">
+                      <td>N</td>
+                      <td>Naked Lady</td>
+                      <td>Nevado Illimani</td>
+                      <td>Nagarjuna Sagar Reservoir</td>
+                  </tr>
+                  <tr class="table-light">
+                      <td>I</td>
+                      <td>Iris cristata</td>
+                      <td>Iztaccíhuatl</td>
+                      <td>Iliamna</td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+      <br> 
+<h4 style="text-align:center; color: rgb(183, 0, 255);">Buttons and Button Groups</h4><br>
+<label>Buttons</label>
+<br>
+<button class="btn">J</button>
+<button class="btn">A</button>
+<button class="btn">G</button>
+<button class="btn">A</button>
+<button class="btn">N</button>
+<button class="btn">I</button>
+<br>
+<label>Button Groups</label>
+<br>  
+<div>
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group me-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-success">J</button>
+            <button type="button" class="btn btn-success">A</button>
+            <button type="button" class="btn btn-success">G</button>
+        </div>
+        <div class="btn-group me-2" role="group" aria-label="Second group">
+            <button type="button" class="btn btn-warning">A</button>
+            <button type="button" class="btn btn-warning">N</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Third group">
+            <button type="button" class="btn btn-danger">I</button>
+        </div>
+    </div>
+  </div>
+  <br>
+  <div class="dropdown" Style="position:relative; display:inline-block;">
+    <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="basic.html">Basic Page</a></li>
+        <li><a class="dropdown-item" href="advanced.html">Advanced Page</a></li>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="container">
+    <form action="">
+        <div class="form-group">
+            <label for="PlantEmail" class="form-label">Email address:</label>
+            <input type="email" class="form-control" id="PlanttEmail" placeholder="Enter your email address"  
+            aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="form-group">
+            <label for="PlanttInput" class="form-label">Plant:</label>
+            <input type="text" class="form-control" id="PlanttInput" 
+            placeholder="Enter Your Plant">
+        </div><br>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="PlantCheck">
+            <label class="form-check-label" for="PlantCheck">Sign up for newsletter?</label>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+  </div>
+  
+  <br>
+    <div class="row">
+      <div class="card" style="width: 18rem;">
+        <img src="Jasmine.jpg" class="card-img-top" alt="Jasmine">
+        <div class="card-body">
+          <h5 class="card-title">Jasmine</h5>
+          <p class="card-text">Jasmine  is a genus of shrubs and vines in the olive family. It contains around 200 species native to tropical and warm temperate regions of Eurasia, Africa, and Oceania. Jasmines are widely cultivated for the characteristic fragrance of their flowers.</p>
+          <a href="https://en.wikipedia.org/wiki/Jasmine" class="btn btn-primary">Info</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="Garden Phlox.jpg" class="card-img-top" alt="Garden Phlox">
+        <div class="card-body">
+          <h5 class="card-title">Garden Phlox</h5>
+          <p class="card-text">Garden Phlox is a genus of 67 species of perennial and annual plants in the family Polemoniaceae. They are found mostly in North America in diverse habitats from alpine tundra to open woodland and prairie. Some flower in spring, others in summer and fall.</p>
+          <a href="https://en.wikipedia.org/wiki/Phlox" class="btn btn-primary">Info</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="Aeonium.jpg" class="card-img-top" alt="Aeonium">
+        <div class="card-body">
+          <h5 class="card-title">Aeonium</h5>
+          <p class="card-text">Aeonium, the tree houseleeks, is a genus of about 35 species of succulent, subtropical plants of the family Crassulaceae. Many species are popular in horticulture.</p>
+          <a href="https://en.wikipedia.org/wiki/Aeonium" class="btn btn-primary">Info</a>
+        </div>
+      </div>
+    </div>
+  <br>
+   
 
 </body>
+
 </html>
